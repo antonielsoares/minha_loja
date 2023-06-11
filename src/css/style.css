@@ -22,8 +22,11 @@
     font-size: 34px;
     border-bottom: 7px solid rgb(235, 252, 2);
 }
+.bg-logim > h2{
+    margin-top: 20px;
+}
 .bg-logim{
-    margin-top: 116px;
+    margin-top: 76px;
     color: white;
     font-size: 33px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
@@ -56,7 +59,6 @@
     
 }
 .roda-pe > img{
-    
     width: 144px;
     height: 44px;
 }
@@ -74,9 +76,20 @@
         padding: 0 50px;
         font-size: 25px;   
     }
+    .roda-pe{
+        align-items: center;
+        width: 196px;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .txt{
+        font-size: 13px;
         text-align: right;
         margin-top: -5px;
+    }
+    .roda-pe > img{
+        width: 104px;
+        height: 44px;
     }  
 }
 /****************************************** VITRINE *****************************************/
