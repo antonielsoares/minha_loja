@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+}
+/**********************************/
 .BG{
     width: 100%;
     height: 100vh;
@@ -74,7 +78,7 @@
 @media screen and (max-width: 460px) {
     .roda-pe{
         align-items: center;
-        width: 196px;
+        width: 296px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -102,15 +106,10 @@
     height: 565px;
 }
 .vitrine-box{
-    text-align: center;
-    padding: 20px 0;
-    background-color: aqua;
+    padding: 5px 0 40px 20px;
+    background: linear-gradient(orange, rgb(245, 190, 89));
 }
-.container{
-    margin: 0 33px;
-}
-.loja > img{
-    border-radius: 13px;
-    width: 25rem;
-    height: 488px;
+.vitrine-box a{
+    padding: 0 20px;
+    color: white;
 }
