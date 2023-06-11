@@ -13,6 +13,7 @@
     justify-content: center;
 }
 .bg-logim{
+    border-top: 2px solid rgb(228, 253, 5);
     margin-top: 166px;
     color: white;
     font-size: 33px;   
@@ -29,6 +30,11 @@
 .bg-logim a{
     text-decoration: none;
 }
+.txt{
+    color: rgb(175, 175, 177);
+    font-size: 13px;
+    margin-top: 274px;
+}
 
 @media screen and (max-width: 1000px) {
     .bg-logim{
@@ -38,7 +44,12 @@
 }
 @media screen and (max-width: 380px) {
     .bg-logim{
+        border: 0;
         padding: 0 50px;
-        font-size: 28px;   
-    }   
+        font-size: 25px;   
+    } 
+    .txt{
+        font-size: 10px;
+        margin-top: 234px;
+    }  
 }
