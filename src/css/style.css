@@ -12,13 +12,24 @@
     display: flex;
     justify-content: center;
 }
+.bg-logim > img{
+    border: 2px solid white;
+    border-radius: 53px;
+    width: 97px;
+    height: 97px;
+}
+.bg-logim > p{
+    font-size: 34px;
+    border-bottom: 7px solid rgb(235, 252, 2);
+}
 .bg-logim{
-    border-top: 2px solid rgb(228, 253, 5);
-    margin-top: 166px;
+    margin-top: 116px;
     color: white;
-    font-size: 33px;   
+    font-size: 33px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
     text-align: center;
 }
+
 .bg-logim input{
     width: 138px;
     height: 30px;
@@ -32,19 +43,19 @@
 }
 .txt{
     color: rgb(175, 175, 177);
-    font-size: 13px;
-    margin-top: 274px;
+    font-size: 18px;
+    margin-top: 194px;
 }
-
+/******** RESPONSIVO **********/
 @media screen and (max-width: 1000px) {
     .bg-logim{
+        border: 0;
         padding: 0 50px;
         font-size: 33px;   
     }   
 }
 @media screen and (max-width: 380px) {
     .bg-logim{
-        border: 0;
         padding: 0 50px;
         font-size: 25px;   
     }
@@ -63,8 +74,8 @@
 .container{
     margin: 20px 33px;
 }
-.loja{
+.loja > img{
+    border-radius: 13px;
     width: 25rem;
     height: 488px;
-    background-color: aquamarine;
 }
