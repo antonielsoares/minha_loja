@@ -145,34 +145,47 @@ footer{
 .produto .foto{
     border-radius: 166px;
     margin: 5px 0 3px 10px;
-    width:  43px;
-    height: 42px;
+    width:  49px;
+    height: 49px;
 }
 .foto > span{
     margin-top: -30px;
     color: aqua;
 }
 .produto > img{
+    border-top: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
     width: 100%;
     height: 282px;
 }
 .produto > h3{
+    height: 54px;
+    font-weight: bolder;
     font-size: 12px;
-    font-weight: initial;
-    margin: 10px 13px;
+    margin: 0 8px;
+    border-bottom: 2px solid #ccc;
 }
-.produto > input{
+.produto .btn-1{
     height: 28px;
-    width: 20%;
+    width: 40%;
     display: inline-block;
-    margin: 17px 0 20px 33px;
-    font-size: 10px;
+    margin-left: 33px;
+    font-size: 13px;
+    cursor: pointer;
+}
+.produto .btn-2{
+    height: 28px;
+    width: 22%;
+    display: inline-block;
+    margin: 11px 17px;
+    font-size: 13px;
     cursor: pointer;
 }
 @media screen and (max-width: 940px) {
     .produto{
         margin-right: 25px;
         width: 21%;
+        border: 3px solid #ccc;
     }
 }
 @media screen and (max-width: 725px) {
@@ -200,7 +213,7 @@ footer{
         height: auto;
     }
     .produto > h3{
+        height: auto;
         font-size: 10px;
-        
     }
 }
