@@ -182,17 +182,32 @@ footer{
     cursor: pointer;
 }
 @media screen and (max-width: 940px) {
+    .container{ margin: 0 9px; }
+
     .produto{
-        margin-right: 25px;
-        width: 21%;
-        border: 3px solid #ccc;
+        margin: 3px;
+        width: 24%;
+        height: 372px;
+    }
+    .produto > img{
+        width: 100%;
+        height: 203px;
+    }
+    .produto > h3{
+        height: 44px;
+        font-size: 11px;
+    }
+    .produto .btn-1{
+        margin-left: 13%;
+        font-size: 11px;
     }
 }
 @media screen and (max-width: 725px) {
     .produto{
-        margin-right: 25px;
-        width: 28%;
+        width: 32%;
     }
+
+    
 }
 @media screen and (max-width: 570px) {
     .vitrine-box a{
@@ -207,13 +222,21 @@ footer{
     }
     .produto{
         margin-top: 20px;
-        margin-right: 25px;
+        margin-left: 13px;
         margin-bottom: -8px;
-        width: 100%;
+        width: 90%;
         height: auto;
     }
     .produto > h3{
         height: auto;
         font-size: 10px;
+    }
+    .produto .btn-1{
+        height: 28px;
+        width: 40%;
+        display: inline-block;
+        margin-left: 33px;
+        font-size: 13px;
+        cursor: pointer;
     }
 }
