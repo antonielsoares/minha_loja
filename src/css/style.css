@@ -190,14 +190,14 @@ footer{
         margin-left: auto;
     }
     .container{
-        margin: 0;
+        margin: 0 14px;
     }
     .produto{
         margin-top: 20px;
         margin-right: 25px;
-        margin-bottom: 3px;
+        margin-bottom: -8px;
         width: 100%;
-        height: 554px;
+        height: auto;
     }
     .produto > h3{
         font-size: 10px;
