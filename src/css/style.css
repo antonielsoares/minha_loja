@@ -3,8 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+body, html{
+    max-width: 1320px;
+}
 
 a{ text-decoration: none; }
+
 .clear{ clear: both ;}
 /**********************************/
 .BG{
@@ -75,6 +79,7 @@ footer{
 }
 .footer-txt{
     font-size: 16px;
+    color: #5a5959;
 } 
 
 /******** RESPONSIVO **********/
@@ -148,6 +153,7 @@ footer{
     background-color: rgb(245, 242, 242);
 }
 .produto .foto{
+    border: 3px solid rgb(163, 163, 194);
     border-radius: 166px;
     margin: 5px 0 3px 10px;
     width:  49px;
@@ -247,6 +253,69 @@ footer{
         margin-left: 33px;
         font-size: 13px;
         cursor: pointer;
-    }
+    }    
+}
+/*********************************** MAIS IMAGEM ***********************************/
+.vitrine-02{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    background-color: rgb(18, 230, 230);
+}
+.vitrine-box{
+    border-bottom: 3px solid #ccc;
+    padding: 5px 0 60px 20px;
+    background: linear-gradient(orange, rgb(245, 190, 89));
+}
+.vitrine-box a{
+    padding: 0 20px;
+    color: white;
+}
+/*********************************** X ***********************************/
+.banner {
+    margin: 0 77px;
+    margin-top: 40px;
+    height: 465px;
+}
+.banner > img{
+    width: 40%;
     
+    float: left;
+}
+.box-1 > h2{
+    font-size: 17px;
+    width: 462px;
+    float: right;
+}
+@media screen and (max-width: 1024px) {
+   .container-2 {
+    margin: 0;
+    }
+    .box-1 > h2{
+    width: 434px;
+    font-size: 13px;
+    }  
+}
+@media screen and (max-width: 570px) {
+    .banner {
+        width: 100%;
+        margin: 0;
+        
+    }
+    .banner > img{
+        display: flex;
+        margin: 20px auto;
+        width: 302px;
+        float: none;
+    }
+    .box-1 {
+        width: 100%;
+    }
+    .box-1 > h2{
+        font-size: 12px;
+        margin: 0 auto;
+        text-align: center;
+        width: 333px;
+        float: none;
+    }   
 }
